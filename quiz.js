@@ -5,7 +5,7 @@ function checkAnswer() {
     console.log(selectedAnswer);
     
 
-    const userAnswer = selectedAnswer.value;
+    const userAnswer = Number(selectedAnswer.value);
     console.log('you chose ' + userAnswer );
     const feedback = document.getElementById('feedback');
 
